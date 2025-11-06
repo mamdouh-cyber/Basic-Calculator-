@@ -23,7 +23,7 @@ function clearResult() {
 }
 
 function deleteLast() {
-    if (display.value.lenght > 1) {
+    if (display.value.length > 1) {
         display.value = display.value.slice(0 , -1);
     } else {
         display.value = "";
